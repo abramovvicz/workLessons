@@ -1,30 +1,34 @@
 package excercise1.main;
 
-import excercise1.utils.AllNumbersRemover;
-import excercise1.utils.AllSpacesRemover;
-import excercise1.utils.LowerCaseChanger;
-import excercise1.utils.UpperCaseChanger;
+import excercise1.utils.*;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.IntStream;
 
 public class Main {
 
     private static String testString = "some string to test removing 12132 numbers from him 12314";
-    private static String testString2 = "some string which have remove spaces and spaces and    spaces";
-    private static String testString3 = "SOME STRING WHICH IS CHANGING TO LOWE CASE";
-    private static String testString4 = "some string which is changing to upper case with out numbers 121 and spaces";
 
     public static void main(String[] args) {
 
-        AllNumbersRemover numbersRemover = new AllNumbersRemover();
-        System.out.println(numbersRemover.changeString(testString));
+        List<ChangeString> listOfModifiers = new ArrayList<>();
+        listOfModifiers.add(new AllSpacesRemover());
+        listOfModifiers.add(new UpperCaseChanger());
+        listOfModifiers.add(new LowerCaseChanger());
+        listOfModifiers.add(new AllNumbersRemover());
 
-        AllSpacesRemover allSpacesRemover = new AllSpacesRemover();
-        System.out.println(allSpacesRemover.changeString(testString2));
 
-        LowerCaseChanger lowerCaseChanger = new LowerCaseChanger();
-        System.out.println(lowerCaseChanger.changeString(testString3));
+        listOfModifiers.forEach(x -> x.changeString(testString));
 
-        UpperCaseChanger upperCaseChanger = new UpperCaseChanger();
-        System.out.println(upperCaseChanger.changeString(testString4));
-
+      /*  listOfModifiers.forEach(x -> System.out.println(x.changeString(testString2)));
+        listOfModifiers.forEach(x -> System.out.println(x.changeString(testString3)));
+        listOfModifiers.forEach(x -> System.out.println(x.changeString(testString4)));
+*/
+        for (ChangeString listOfModifier : listOfModifiers) {
+            testString = listOfModifier.changeString(testString);
+        }
+        System.out.println(testString);
     }
 }
+
