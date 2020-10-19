@@ -1,4 +1,4 @@
-package refelctionTest;
+package reflectionTest;
 
 import lombok.Getter;
 import lombok.Setter;

@@ -1,12 +1,13 @@
-package refelctionTest;
+package reflectionTest;
 
-import java.lang.reflect.Constructor;
-import java.lang.reflect.Field;
-import java.lang.reflect.Method;
-import java.lang.reflect.Modifier;
+import java.lang.reflect.*;
+import java.util.HashMap;
+import java.util.Map;
 
 public class Main {
-    public static void main(String[] args) {
+    static Bike bike = new Bike("MTB");
+
+    public static void main(String[] args) throws ClassNotFoundException {
 
 
         Car car = new Car("Mazda", "black");
@@ -17,6 +18,10 @@ public class Main {
         Class someClass = car.getClass();
 
         Field[] fields = someClass.getDeclaredFields();
+
+        System.out.println(bike.getBikeType());
+        Main main = new Main();
+        main.checkBikeClass(bike.getClass());
 
 
         try {
@@ -33,10 +38,42 @@ public class Main {
     }
 
 
+    private void checkBikeClass(Class bikeClass) {
+
+
+//        try {
+//            String name = new Bike("ROAD").getClass().getName();
+//            System.out.println(name);
+//            Class anotherClass = Class.forName("reflectionTest.Bike");
+//            Method method = bikeClass.getDeclaredMethod("rideByChosenBikeType", bikeClass);
+//            method.setAccessible(true);
+//            boolean instance = bikeClass.isInstance(bike);
+//            System.out.println(instance);
+//            System.out.println(ReadingConfByReflection.main(bikeClass.isInstance(bike)).);
+
+//            method.invoke(bikeClass.isInstance(bike), bikeClass);
+//        } catch (InvocationTargetException | IllegalAccessException | NoSuchMethodException | ClassNotFoundException e) {
+//            e.printStackTrace();
+//        }
+
+    }
+
     private static void checkPrivateFieldsInClass(Class someClass) {
 
-        Field[] fields = someClass.getDeclaredFields();
+        Map<String, String> someMap = new HashMap<>();
+        int i = 0;
+        for (String s : someMap.keySet()) {
+            while (i < 10) {
+                s = s + i;
+                someMap.put(s, "Bartek");
+                i++;
+            }
+        }
 
+        String name1 = someMap.getClass().getName();
+        System.out.println("Klasa Mapy to?" + name1);
+
+        Field[] fields = someClass.getDeclaredFields();
 
         for (Field field : fields) {
             Class classType = field.getType();
@@ -49,11 +86,17 @@ public class Main {
         }
     }
 
-    private static void checkPrivateMethodsInClass(Class someClass) {
+    private static void checkPrivateMethodsInClass(Class someClass) throws ClassNotFoundException {
         Method[] methods = someClass.getMethods();
+        Class<? extends Class> aClass = someClass.getClass();
+        String name = someClass.getName();
+        System.out.println(name);
+        Class<?> car = Class.forName("reflectionTest.Car");
+        System.out.println(car);
+
 
         for (Method method : methods) {
-            Class returType = method.getReturnType();
+            Class returnType = method.getReturnType();
             String methodName = method.getName();
             String modifiers = Modifier.toString(method.getModifiers());
 
