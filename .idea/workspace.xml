@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a156b36-32c1-4e30-b4f7-4b24702078a2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/shortScratches/ShortScratches.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +56,7 @@
       <recent name="C:\Users\BAbramowicz\OneDrive - HARMAN\APool\prvGit\lessonsHarman\src\main\java\refelctionTest" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WebSocketClientMain">
+  <component name="RunManager" selected="Application.ShortScratches">
     <configuration name="AnonymousClasses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="innerClassesExcercises.AnonymousClasses" />
       <module name="lessonsHarman" />
@@ -96,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="reflectionTest.Main" />
+    <configuration name="ShortScratches" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="shortScratches.ShortScratches" />
       <module name="lessonsHarman" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="reflectionTest.*" />
+          <option name="PATTERN" value="shortScratches.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ShortScratches" />
         <item itemvalue="Application.WebSocketClientMain" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.BoxOnSteroids" />
         <item itemvalue="Application.AnonymousClasses" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
