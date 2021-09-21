@@ -1,57 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="4a156b36-32c1-4e30-b4f7-4b24702078a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/lessonsHarman.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/generics/Ananas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/generics/Apple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/generics/BoxForImplementation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/generics/BoxOnSteroids.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/generics/ClassExtention.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/generics/Orange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/innerClassesExcercises/AnonymousClasses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/innerClassesExcercises/OuterClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javaZaawansowaneHorstmann/CollectionsTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javaZaawansowaneHorstmann/CollectorsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javaZaawansowaneHorstmann/CreatingStreams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javaZaawansowaneHorstmann/LoadFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javaZaawansowaneHorstmann/Optionals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javaZaawansowaneHorstmann/Others.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javaZaawansowaneHorstmann/PrimitiveTypes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/reflectionHashSet/Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/reflectionTest/Bike.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/reflectionTest/ReadingConfByReflection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/reflectionTest/alice.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threads/TestThreads.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/webSocketTests/client/ToUpperClientSocket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/webSocketTests/client/WebSocketClientMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/webSocketTests/server/ToUpperWebSocket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/webSocketTests/server/ToUpperWebSocketServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/alice.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/cities.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PointTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessonsHarman.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/refelctionTest/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reflectionTest/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/refelctionTest/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reflectionTest/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/lessonsHarman.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/excercise1/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/excercise1/main/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/excercise1/utils/AllNumbersRemover.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/excercise1/utils/AllNumbersRemover.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/excercise1/utils/AllSpacesRemover.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/excercise1/utils/AllSpacesRemover.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/excercise1/utils/ChangeString.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/excercise1/utils/ChangeString.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/excercise1/utils/LowerCaseChanger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/excercise1/utils/LowerCaseChanger.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/excercise1/utils/UpperCaseChanger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/excercise1/utils/UpperCaseChanger.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/excercise2/HtmlColorParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/excercise2/HtmlColorParser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/excercise2/RGB.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/excercise2/RGB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/excercise3/InParts.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/excercise3/InParts.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/refelctionTest/Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/refelctionTest/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/singleton/Singleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/singleton/Singleton.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,9 +37,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../jettyexample" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -166,6 +122,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.WebSocketClientMain" />
@@ -176,6 +143,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
